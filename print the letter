@@ -1,0 +1,11 @@
+import operator
+input_strings=input('Please enter a string:')
+def most_frequent(strings):
+    d=dict()
+    for key in string:
+        if key in string:
+            d[key]=1
+        else:
+            d[key]+=1
+    return sorted(d.items(),key=operator.itemgetter(1),reverse=True)
+    print(*most_frequent(input_string))
